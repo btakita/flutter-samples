@@ -43,7 +43,7 @@ class _MoviesConceptPageState extends State<MoviesConceptPage> {
 
   @override
   void initState() {
-    WidgetsBinding.instance!.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       pageController.addListener(_listener);
     });
     super.initState();
@@ -186,7 +186,7 @@ class _MoviesConceptPageState extends State<MoviesConceptPage> {
             width: size.width / 2,
             child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.black,
+                  backgroundColor: Colors.black,
                 ),
                 child: Text(
                   'BUY TICKET',

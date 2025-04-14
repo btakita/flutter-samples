@@ -19,7 +19,7 @@ class MainSplitWidget extends StatelessWidget {
               child: Center(
                 child: Text(
                   "FLUTTER",
-                  style: Theme.of(context).textTheme.headline3,
+                  style: Theme.of(context).textTheme.displaySmall,
                 ),
               ),
             ),

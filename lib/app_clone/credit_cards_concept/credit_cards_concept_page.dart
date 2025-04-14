@@ -14,8 +14,8 @@ class CreditCardConceptPage extends StatelessWidget {
     const padding = EdgeInsets.all(18.0);
     return Theme(
       data: ThemeData.dark().copyWith(
-        backgroundColor: Colors.black,
         scaffoldBackgroundColor: Colors.black,
+        colorScheme: ColorScheme.dark().copyWith(surface: Colors.black),
       ),
       child: Scaffold(
         appBar: AppBar(
@@ -32,7 +32,7 @@ class CreditCardConceptPage extends StatelessWidget {
                 children: [
                   Text(
                     'Bank Cards',
-                    style: textTheme.headline4!.copyWith(
+                    style: textTheme.headlineMedium!.copyWith(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
                     ),
@@ -40,7 +40,7 @@ class CreditCardConceptPage extends StatelessWidget {
                   const SizedBox(height: 20),
                   Text(
                     'Balance',
-                    style: textTheme.subtitle2!.copyWith(
+                    style: textTheme.titleSmall!.copyWith(
                       color: Colors.grey,
                     ),
                   ),
@@ -58,7 +58,7 @@ class CreditCardConceptPage extends StatelessWidget {
                           duration: const Duration(milliseconds: 500),
                           builder: (_, value, ___) => Text(
                             value.toStringAsFixed(2),
-                            style: textTheme.headline6!.copyWith(
+                            style: textTheme.titleLarge!.copyWith(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
                             ),

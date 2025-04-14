@@ -46,7 +46,7 @@ class _ScrollSyncState extends State<ScrollSync> {
                   child: Text(
                     "$index",
                     textAlign: TextAlign.center,
-                    style: Theme.of(context).textTheme.headline3,
+                    style: Theme.of(context).textTheme.displaySmall,
                   ),
                 ),
               ),
@@ -64,7 +64,7 @@ class _ScrollSyncState extends State<ScrollSync> {
                     "$index",
                     style: Theme.of(context)
                         .textTheme
-                        .headline3!
+                        .displaySmall!
                         .copyWith(color: Colors.white),
                   ),
                 ),

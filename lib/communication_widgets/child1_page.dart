@@ -28,7 +28,7 @@ class Child1PageState extends State<Child1Page> {
         children: [
           Text(
             widget.title ?? value,
-            style: Theme.of(context).primaryTextTheme.headline5,
+            style: Theme.of(context).primaryTextTheme.headlineSmall,
           ),
           ElevatedButton(
             //Update Parent from Child 1

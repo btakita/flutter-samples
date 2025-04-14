@@ -48,12 +48,12 @@ class MainAnimationsState extends State<MainAnimations> {
                 onButtonTap(ListPage());
               },
             ),
-            MyMenuButton(
-              title: "Circular List Page",
-              actionTap: () {
-                onButtonTap(CircularListPage());
-              },
-            ),
+            // MyMenuButton(
+            //   title: "Circular List Page",
+            //   actionTap: () {
+            //     onButtonTap(CircularListPage());
+            //   },
+            // ),
             MyMenuButton(
               title: "My Custom AppBar Page",
               actionTap: () {
